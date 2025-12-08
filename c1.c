@@ -1,13 +1,7 @@
 #include <stdio.h>
-int main(){
-    int num;
-    printf("enter any num:");
-    scanf("%d",&num);
+int main()
+{
+    printf("hello world");
 
-    printf(num>0 ? "postive\n":"negative\n");
-    printf(num==0?" zero\n":"notzero\n");
-    printf(num%2==0? "Even\n":"Odd\n");
-    return 0;
-
-
+    return 0 ;
 }

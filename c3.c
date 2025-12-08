@@ -1,17 +1,12 @@
-#include <iostream>
-using namespace std;
-
-int main() {
-    int num;
-    cout << "Enter a number: ";
-    cin >> num;
-
-    if (num > 0)
-        cout << num << " is positive." << endl;
-    else if (num < 0)
-        cout << num << " is negative." << endl;
-    else
-        cout << "The number is zero." << endl;
-
-    return 0;
+#include <stdio.h>
+int main()
+{
+   int age = 19;
+   age = 20;
+   char hashtag = '#';
+   float pi = 3.14;
+   int A = 23;
+   int a = 24;
+   int final_price = 100;
+   return 0;
 }
